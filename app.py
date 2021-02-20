@@ -96,3 +96,7 @@ def submit_datathon_2019():
                                     feature9=feature9,
                                     feature10=feature10,)       
         return render_template('/datathon-2019/index.html', error=error)
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
